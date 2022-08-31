@@ -3,9 +3,9 @@ import React, { Suspense, useState, useEffect } from "react";
 import './App.css';
 import { HashRouter, Routes, Route } from "react-router-dom";
 
-const OnBoarding = React.lazy(() =>
-import("./Components/OnBoarding")
-);
+// const OnBoarding = React.lazy(() =>
+// import("./Components/OnBoarding")
+// );
 
 function App() {
   return (
@@ -13,11 +13,11 @@ function App() {
       <HashRouter>
      <Routes>
 
-        <Route
+        {/* <Route
           path="/Components/OnBoarding"
-          element={<OnBoarding/>}
+          element={<OnBoarding/>} */}
       
-/>
+{/* /> */}
   </Routes>
   </HashRouter>
     </div>
